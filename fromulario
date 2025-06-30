@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <h1>Cadastro de Disciplina</h1>
+    <form id="cadastro_pagina">
+       
+
+        <label for="email">email:</label>
+        <input type="text" id="email"><br>
+       
+
+        <label for="senha">senha:</label>
+        <input type="text" id="senha"><br>
+
+
+        <button type="submit" id="botao">Cadastrar</button>        
+
+
+        <!-- <button type="submit" onclick="executar()">Enviar</button> -->
+    </form>    
+    <script src="formulario.js"></script>
+</body>
+</html>
